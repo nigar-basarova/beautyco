@@ -13,5 +13,8 @@ align-items: center;
     text-align: center;
     background-color: #CF4D74;
     border-radius: 45%;
-    border: 1px solid grey;
+    border: 1px solid #3C2769;
+}
+.classes{
+    margin-left: 35%;
 }
