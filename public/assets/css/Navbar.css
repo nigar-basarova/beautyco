@@ -1,0 +1,17 @@
+.btn-first{
+width: 100px;
+height: 42px;
+align-items: center;
+   background-color: transparent;
+   border-radius: 45%;
+   border: 1px solid grey;
+
+}
+.btn-second{
+    width: 119px;
+    height: 42px;
+    text-align: center;
+    background-color: #CF4D74;
+    border-radius: 45%;
+    border: 1px solid grey;
+}
