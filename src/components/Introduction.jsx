@@ -7,7 +7,7 @@ const Introduction = () => {
 
         <div className="intro-left-side">
 
-<h2 className=''> Hydrated skin in 3 easy steps</h2>
+<h1 className=''> Hydrated skin in 3 easy steps</h1>
 <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique duis Cursus mi quis viverra ornare.
 
 </p>
@@ -20,9 +20,9 @@ const Introduction = () => {
           
 
         
-        <img className='p-2' src="assets/images/logos/logo1.svg" alt="" />
-          <img className='p-2' src="assets/images/logos/logo2.svg" alt="" />
-          <img className='p-2'  src="assets/images/logos/logo3.svg" alt="" />
+        <img className='p-3' src="assets/images/logos/logo1.svg" alt="" />
+          <img className='p-3' src="assets/images/logos/logo2.svg" alt="" />
+          <img className='p-3'  src="assets/images/logos/logo3.svg" alt="" />
         
           
             </div>

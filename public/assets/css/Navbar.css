@@ -3,7 +3,7 @@ width: 100px;
 height: 42px;
 align-items: center;
    background-color: transparent;
-   border-radius: 45%;
+   border-radius: 65px;
    border: 1px solid grey;
 
 }
@@ -12,7 +12,7 @@ align-items: center;
     height: 42px;
     text-align: center;
     background-color: #CF4D74;
-    border-radius: 45%;
+    border-radius: 64px;
     border: 1px solid #3C2769;
 }
 .classes{
