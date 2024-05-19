@@ -49,9 +49,15 @@ const Introduction = () => {
          <button>Eco-friendly</button>
          <button>Vitamins</button>
       </div>
+
+
+    
     </div>
+    
+   
+
 
   )
 }
-
+ 
 export default Introduction

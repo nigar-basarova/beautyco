@@ -1,0 +1,23 @@
+.story button{
+    
+    width: 102px;
+    border-radius: 65px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+text-decoration: none;
+background-color: #EDEBF7;
+    color: #3C2769;
+    padding: 15px;
+      
+     margin: 10px;
+     margin-top: 20px;
+    
+}
+
+ p{
+   margin-left: 300px;
+    width: 700px;
+    
+}
