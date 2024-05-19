@@ -6,9 +6,42 @@
 
 
 .intro-left-side{
+    width: 560px;
+    height: 630px;
     color: #3C2769;
 }
 
-.intro-right-side img{
-    width: 720px;
+.intro-left-side h1{
+    width: 370px;
+       margin-top: 60px;
+
 }
+.intro-left-side p{
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.intro-left-side button{
+    font-size: 16px;
+border-radius: 64px;
+   gap: 2px;
+
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.intro-left-side button :hover{
+    outline: #3C2769;
+    text-decoration: none;
+}
+
+.intro-left-side
+
+
+
+
+.intro-right-side img{
+    width: 650px;
+    display: flex;
+    align-items: flex-end;
+}
+
