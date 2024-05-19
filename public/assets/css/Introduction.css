@@ -1,3 +1,7 @@
+
+
+
+
 .intro{
     background-color: #EDEBF7;
    
@@ -45,3 +49,17 @@ border-radius: 64px;
     align-items: flex-end;
 }
 
+.karusel button{
+
+    width: 180px;
+    color: #3C2769;
+padding: 15px;
+    font-size: 16px;
+    border-radius: 64px;
+ margin: 20px;
+ margin-top: 40px;
+}
+.karusel button :hover{
+    outline: #3C2769;
+
+}

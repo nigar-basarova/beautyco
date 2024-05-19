@@ -3,6 +3,9 @@ import 'bootstrap/dist/js/bootstrap'
 import './App.css'
 import '../public/assets/css/Navbar.css'
 import '../public/assets/css/Introduction.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+
 // komponentler gelecek
 import NavbarKomponenti from './components/Navbar'
 import Introduction from './components/Introduction'
@@ -13,6 +16,7 @@ function App() {
     <>
  < NavbarKomponenti/>
 <Introduction/>
+<Swiper/>
  </>
   )
 }

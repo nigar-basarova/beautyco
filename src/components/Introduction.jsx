@@ -2,7 +2,11 @@ import React from 'react'
 
 const Introduction = () => {
   return (
-    <div className='intro'>
+   
+
+
+         
+   <div className='intro'>
         <div className="container d-flex">
 
         <div className="intro-left-side">
@@ -32,9 +36,21 @@ const Introduction = () => {
 
             </div>
 
+
     
         </div>
+      
+
+      <div className='karusel p-5 '>
+         <button>Healthy supplement</button>
+         <button>Gluten-free</button>
+         <button>Natural products</button>
+         <button>Free shipping</button> 
+         <button>Eco-friendly</button>
+         <button>Vitamins</button>
+      </div>
     </div>
+
   )
 }
 
