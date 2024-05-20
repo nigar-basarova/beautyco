@@ -1,7 +1,23 @@
 import React from 'react'
+import { RxCross2 } from "react-icons/rx";
+
+//obyektin parcalanmasi
 
 const Navbar = () => {
   return (
+
+<>
+    <div className="mobile-menu  position-fixed">
+    <RxCross2 className='text-white' />
+<nav className="mobile-links  text-white ">
+  <a href="">Products</a>
+  <a href="">Story</a>
+  <a href="">Blog</a>
+ <a href="">Collections</a>
+ <a href="">Contact</a>
+</nav>
+    </div>
+
     <nav className="navbar navbar-expand-lg  mt-2 ">
       <div className="container ">
         {/* <a className="navbar-brand" href="#">Navbar</a> */}
@@ -46,6 +62,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </>
   )
 }
 

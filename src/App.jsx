@@ -11,6 +11,7 @@ import 'swiper/css';
 import NavbarKomponenti from './components/Navbar'
 import Introduction from './components/Introduction'
 import Story from './components/Story.'
+import Card from './components/Card'
 function App() {
  
 
@@ -20,6 +21,7 @@ function App() {
 <Introduction/>
 <Swiper/>
 <Story/>
+<Card/>
  </>
   )
 }
