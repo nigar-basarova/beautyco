@@ -65,3 +65,42 @@ padding: 15px;
     outline: #3C2769;
 
 }
+
+
+
+
+
+
+/* media */
+@media (max-width: 900px) {
+    .intro {
+      overflow-x: hidden;
+      padding: 0 10px;
+    }
+  
+    .container {
+      max-width: 100%;
+      padding: 0;
+    }
+  
+    .intro-left-side, .intro-right-side {
+      padding: 0;
+    }
+  
+    .karusel button {
+      white-space: nowrap;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    p {
+      word-wrap: break-word;
+    }
+  }
+  
+
+  
+ 
