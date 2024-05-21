@@ -1,15 +1,22 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import { RxCross2 } from "react-icons/rx";
 
 //obyektin parcalanmasi
 
 const Navbar = () => {
+const purpleMenyu= useRef()
+  const menyunuAc = ()=>{
+purpleMenyu.current.classList.add("aktiv")
+  }
+  const menyunuBagla = ()=>{
+    purpleMenyu.current.classList.remove("aktiv")
+      }
   return (
 
 <>
-    <div className="mobile-menu  position-fixed">
-    <RxCross2 className='text-white' />
-<nav className="mobile-links  text-white ">
+    <div className="mobile-menu  position-fixed " ref={purpleMenyu}  >
+    <RxCross2 className='text-white  baglama-iconu'  onClick={menyunuBagla} />
+<nav className="mobile-links   ">
   <a href="">Products</a>
   <a href="">Story</a>
   <a href="">Blog</a>
@@ -21,7 +28,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg  mt-2 ">
       <div className="container ">
         {/* <a className="navbar-brand" href="#">Navbar</a> */}
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button onClick={menyunuAc} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse classes" id="navbarSupportedContent">
