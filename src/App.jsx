@@ -5,14 +5,16 @@ import '../public/assets/css/Navbar.css'
 import '../public/assets/css/Introduction.css'
 import '../public/assets/css/Story.css'
 import '../public/assets/css/Card.css'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+
+
+// import '../public/assets/css/CardTwo'
 
 // komponentler gelecek
 import NavbarKomponenti from './components/Navbar'
 import Introduction from './components/Introduction'
 import Story from './components/Story.'
 import Card from './components/Card'
+import CardTwo from './components/CardTwo'
 import ProductSection from './components/ProductSection'
 function App() {
  
@@ -21,7 +23,7 @@ function App() {
     <>
  < NavbarKomponenti/>
 <Introduction/>
-<Swiper/>
+
 <Story/>
 
 < ProductSection/>
