@@ -1,41 +1,57 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap'
-import './App.css'
-import '../public/assets/css/Navbar.css'
-import '../public/assets/css/Introduction.css'
-import '../public/assets/css/Story.css'
-import '../public/assets/css/Card.css'
-import '../public/assets/css/CardTwo.css'
-import '../public/assets/css/HowItWorks.css'
 
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
+import './App.css';
+import '../public/assets/css/Navbar.css';
+import '../public/assets/css/Introduction.css';
+import '../public/assets/css/NotFound.css'
+import '../public/assets/css/Story.css';
+import '../public/assets/css/Card.css';
+import '../public/assets/css/CardTwo.css';
+import '../public/assets/css/HowItWorks.css';
 
+// Importing necessary components
+import React from 'react';
+import NavbarKomponenti from './components/Navbar';
+import Introduction from './components/Introduction';
+import Story from './components/Story.';
+import Card from './components/Card';
+import HowItWorks from './components/HowItWorks';
+import LastSection from './components/LastSection';
+import ProductSection from './components/ProductSection';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importing from react-router-dom
+import NotFound from './containers/NotFound';
+import Navbar from './components/Navbar';
 
-// import '../public/assets/css/CardTwo'
-
-// komponentler gelecek
-import NavbarKomponenti from './components/Navbar'
-import Introduction from './components/Introduction'
-import Story from './components/Story.'
-import Card from './components/Card'
-import HowItWorks from './components/HowItWorks'
-
-
-import ProductSection from './components/ProductSection'
 function App() {
- 
-
   return (
     <>
- < NavbarKomponenti/>
-<Introduction/>
+    <Navbar/>
+   
+    <Router>
+      <div className="container">
+        
+       
+        <Routes>
+          <Route path="/" element={<Introduction />} />
+          <Route path="/story" element={<Story />} />
+          <Route path="/product" element={<ProductSection />} />
+          <Route path="/howitworks" element={<HowItWorks />} />
+          <Route path="/lastsection" element={<LastSection />} />
+          <Route path="/Product" element={<ProductSection />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </Router>
 
-<Story/>
+   <Story/>
+   <ProductSection/>
+   <HowItWorks/>
 
-< ProductSection/>
-<HowItWorks/>
-</>
-  )
+
+    </>
+  );
 }
 
-export default App
+export default App;

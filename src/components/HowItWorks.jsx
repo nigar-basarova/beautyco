@@ -2,7 +2,9 @@ import React from 'react';
 
 const HowItWorks = () => {
   return (
-   
+  
+
+    
 
 
 <div className="container p-5 mt-5">
@@ -75,17 +77,16 @@ const HowItWorks = () => {
 
 <div className="container d-flex">
   <div className="right-two-side">
-    <img src="./assets/images/rightImage2.svg" alt="" />
+    <img  className=' mt-5'src="./assets/images/rightImage2.svg" alt="" />
   </div>
   <div className="left-two-side">
 
   <div className="story   ">
-         <button>Healthy tanning collection</button>
-         <h1>For body skin</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros elementum tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+         
+        
+        
        
-         <button className=''>Shop now</button>
-          <button className=''>Explore more <img className='p-1' src="assets/icons/arrow.svg" alt="Arrow" /></button>
+         
 
         </div>
 
