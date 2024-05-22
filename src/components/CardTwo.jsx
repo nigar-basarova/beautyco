@@ -1,25 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-const CardTwo = ({kartinShekli, kartinBashligi, kartinParaqrafi, kartinButtonu })  => {
-    // console.log(props)
+const CardTwo = ({ kartinBashligi, kartinParaqrafi, kartinButtonu, kartinShekli }) => {
   return (
-    <div className='card border-0 container'>
-        <img src={kartinShekli} className='products-img' alt="" />
+    <div className='card-two border-0  container  '>
+      <div className="card-body ">
+        <h3 className='best-selling m-5'>{kartinBashligi}</h3>
+        <p className='text-secondary best-selling'>{kartinParaqrafi}</p>
+        <button className='button'> {kartinButtonu} </button>
        
-        
-      
-      <div className="card-body">  
-        <div className="card-two border-0 "> 
-        <h3 className='product-name'>{kartinBashligi}</h3>
-        <p className='title-about text-secondary'> {kartinParaqrafi} </p>
-            <button> {kartinButtonu} </button>
-            </div>
+      </div>
+      <img src={kartinShekli} alt="" />
+    </div>
+  );
+};
 
-        </div>
-        </div>
-   
-    
-  )
-}
-
-export default Card
+export default CardTwo;
