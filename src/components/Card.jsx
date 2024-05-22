@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({kartinShekli, kartinBashligi, kartinParaqrafi, kartinButtonu })  => {
     // console.log(props)
   return (
-    <div className='card border-0'>
+    <div className='card border-0 container'>
         <img src={kartinShekli} className='products-img' alt="" />
        
         <div className="card-body">

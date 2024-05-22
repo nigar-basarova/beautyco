@@ -4,8 +4,12 @@
 
 } */
 .card-body{
-    width: 390px;
-    height: 189px;
+    width: 395px;
+height: 183px;
+top: 300px;
+padding: 24px 
+
+   
 }
 .product-name {
     width: 54px;
@@ -19,4 +23,44 @@ height: 21px;
 top: 32px;
 font-size: 17px;
 margin-inline-start: 10px;
+}
+
+.card img {
+    width: 395px;
+height: 210px;
+
+
+    padding-top: 50px;
+    background-color: #F3F5F7;
+}
+
+.card{
+    background-color: #F3F5F7;
+}
+
+.card-body button{
+   width: 353px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+text-decoration: none;
+background-color: #FFFFFF;
+    color: #3C2769;
+    padding: 15px;
+      
+    margin-bottom: 50px;
+     margin-top: 50px;
+}
+.card{
+    
+height: 483px;
+
+border-radius: 50px 
+
 }

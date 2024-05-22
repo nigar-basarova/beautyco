@@ -8,17 +8,17 @@ const ProductSection = () => {
         <div className="product-three">
             <div className="row">
                 <div className="col-12 col-md-4">
-                <Card kartinShekli= "/assets/images/product1.png" kartinBashligi= "Clean" kartinParaqrafi ="Lorem ipsum dolor sit amet" kartinButtonu= " Product details" />
+                <Card kartinShekli= "/assets/images/product1.svg" kartinBashligi= "Clean" kartinParaqrafi ="Lorem ipsum dolor sit amet" kartinButtonu= " Product details" />
               
                 </div>
            
                 <div className="col-12 col-md-4">
-                <Card kartinShekli= "/assets/images/product2.png" kartinBashligi= "Tone " kartinParaqrafi ="Lorem ipsum dolor sit amet" kartinButtonu= " Product details"  />
+                <Card kartinShekli= "/assets/images/product2.svg" kartinBashligi= "Tone " kartinParaqrafi ="Lorem ipsum dolor sit amet" kartinButtonu= " Product details"  />
               
                 
                 </div>
                 <div className="col-12 col-md-4">
-                <Card kartinShekli= "/assets/images/product3.png" kartinBashligi= "Soft " kartinParaqrafi =" Lorem ipsum dolor sit amet" kartinButtonu= " Product details"/>
+                <Card kartinShekli= "/assets/images/product3.svg" kartinBashligi= "Soft " kartinParaqrafi =" Lorem ipsum dolor sit amet" kartinButtonu= " Product details"/>
               
                 
                 </div>
