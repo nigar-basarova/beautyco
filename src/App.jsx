@@ -23,6 +23,7 @@ import ProductSection from './components/ProductSection';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importing from react-router-dom
 import NotFound from './containers/NotFound';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -42,12 +43,13 @@ function App() {
           <Route path="/Product" element={<ProductSection />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
-    </Router>
-
-   <Story/>
+        <Story/>
    <ProductSection/>
    <HowItWorks/>
+      </div>
+    </Router>
+<Footer/>
+   
 
 
     </>
