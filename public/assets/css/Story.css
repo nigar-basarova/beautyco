@@ -79,3 +79,45 @@ background-color: #EDEBF7;
 width: 7yyy;
 }
 
+
+
+
+
+/* mobile*/
+@media  (max-width: 320px) {
+    .container {
+      padding: 2rem;
+    }
+  
+    .story button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .story h1 {
+      font-size: 24px;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  
+    .story p {
+      font-size: 7px;
+    }
+  
+    .our-story button,
+    .ourstory button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .best-sellers button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .trusted-products h4 {
+      font-size: 16px;
+      margin-top: 2rem;
+    }
+  }
+  
