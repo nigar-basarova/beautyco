@@ -25,7 +25,7 @@ emailjs
         <div className="footer">
             <div className="row">
                 <div className="left-footer">
-                    <p className='ms-4'>Join our newsletter to stay up to date on features and releases.</p>
+                    <p className='ms-4 mt-5'>Join our newsletter to stay up to date on features and releases.</p>
   
                  
                  
@@ -35,10 +35,10 @@ emailjs
                  
                  
                    
-    <div className="container d-flex col-12 col-md-6 ms-1">
+    <div className="container d-flex col-12 col-md-6 ms-1 ">
         <form  onSubmit={mesajiGonder}  className="" ref={NigarinYaratdigiForm}>
-            <div className="form ms-1">
-                <input className='' type="textarea" placeholder=' name ' />
+            <div className="form ms-1 ">
+                <input className='' type="textarea" placeholder=' name '  />
                 <button  className="btn-second btn-outline text-white mb-2 mb-sm-0" type="submit">Subscribe</button>
                 
                 
@@ -85,6 +85,12 @@ emailjs
     </div>
     </div>
    
+ </div>
+ <div className="contact-section d-flex">
+ <p className='ms-4'>© Beautico by Minimal Square. Powered by Webflow</p>
+ <img className=' linst' src="./assets/icons/facebook.svg" alt="" />
+ <img className='inst' src="./assets/icons/instagram.svg" alt="" />
+ <img className='inst' src="./assets/icons/twitter.svg" alt="" />
  </div>
                 </div>
 

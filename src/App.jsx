@@ -46,6 +46,7 @@ function App() {
         <Story/>
    <ProductSection/>
    <HowItWorks/>
+   <LastSection/>
       </div>
     </Router>
 <Footer/>

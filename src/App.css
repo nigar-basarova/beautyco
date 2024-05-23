@@ -7,16 +7,18 @@ textarea {
     height: 40px;
     border-radius: 10px;
 margin-right: 10px;
+margin-bottom: 100px;
 }
 
 .pages{
     display: flex;
     width: 400px;
     
-
+margin-bottom: 100px;
     
 }
 .pages p{
+    margin-top: 50px;
     width: 250px;
     gap: 30px;}
 
@@ -24,3 +26,53 @@ margin-right: 10px;
     display: flex;
    }
    
+   .linst{
+    margin: 10px;
+    margin-left: 500px;
+
+   }
+   .inst{
+    margin: 10px;
+   }
+   .contact-section p{
+    display: flex;
+    margin-top: 100px;
+    
+   }
+
+   .komentler img{
+    width: 400px;
+    margin: 20px;
+   
+}
+
+.question p{
+    width: 400px;
+    margin: 50px;
+    margin-top: 50px;
+   margin-bottom: 100px;
+}
+
+.question-right {
+ margin-top: 150px;
+ margin-left: 50px;
+    
+}
+    
+
+.question.question-left button{
+    margin-bottom: 500px;
+    
+}
+
+
+.karusel-k img{
+    margin-bottom: 100px;
+    width: 210px;
+margin-block-start: 10px;
+margin: 20px;
+}
+.karusel-k{
+    margin-top: 700px;
+    margin-bottom: 200px;
+}
