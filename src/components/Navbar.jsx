@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 import { RxCross2 } from "react-icons/rx";
-
+import { Link } from 'react-router-dom';
 //obyektin parcalanmasi
 
 const Navbar = () => {

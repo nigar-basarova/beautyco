@@ -11,7 +11,7 @@ import '../public/assets/css/Card.css';
 import '../public/assets/css/CardTwo.css';
 import '../public/assets/css/HowItWorks.css';
 
-// Importing necessary components
+
 import React from 'react';
 import NavbarKomponenti from './components/Navbar';
 import Introduction from './components/Introduction';
@@ -24,7 +24,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Im
 import NotFound from './containers/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
+import Contact from './containers/Contact';
+import Story1 from './containers/Story1';
 function App() {
   return (
     <>
@@ -36,11 +37,12 @@ function App() {
        
         <Routes>
           <Route path="/" element={<Introduction />} />
-          <Route path="/story" element={<Story />} />
-          <Route path="/product" element={<ProductSection />} />
-          <Route path="/howitworks" element={<HowItWorks />} />
-          <Route path="/lastsection" element={<LastSection />} />
-          <Route path="/Product" element={<ProductSection />} />
+          <Route path="/story" element={<Story1 />} />
+          <Route path="/Product" element={<ProductSection/>} />
+          <Route path="/blog" element={<HowItWorks />} />
+      
+          <Route path="/collections" element={<LastSection />} />
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Story/>
